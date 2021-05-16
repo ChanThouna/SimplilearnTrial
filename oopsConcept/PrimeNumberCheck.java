@@ -11,6 +11,7 @@ public class PrimeNumberCheck {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println(" Enter an Integer ");
 		Integer num = scanner.nextInt();
+		scanner.close();
 			
 		if ( num ==1 )
 			System.out.println("is not a prime ");
