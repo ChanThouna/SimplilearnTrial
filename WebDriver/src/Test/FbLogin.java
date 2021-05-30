@@ -46,8 +46,7 @@ public class FbLogin {
 		 WebElement CreateUser  = driver.findElement(By.xpath("//a[text()='Create New Account']"));	 
 		 System.out.println(CreateUser.getText());	 
 		 
-		 
-		 
+		 	 
 		driver.close();
 		
 		

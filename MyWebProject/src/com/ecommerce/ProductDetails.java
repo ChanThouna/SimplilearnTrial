@@ -56,8 +56,7 @@ public class ProductDetails extends HttpServlet {
             
             stmt.close();
             
-            
-            
+                     
             out.println("</body></html>");
             conn.closeConnection();
             
@@ -65,9 +64,7 @@ public class ProductDetails extends HttpServlet {
 	            e.printStackTrace();
 	    } catch (SQLException e) {
 	            e.printStackTrace();
-	    }
-
-		
+	    }		
 		
 	}
 

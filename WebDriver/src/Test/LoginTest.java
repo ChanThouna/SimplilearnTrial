@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 public class LoginTest {
 
 	public static void main(String[] args) {
@@ -79,8 +78,7 @@ public class LoginTest {
 		 System.out.println(" link text is " + listOfLinks.get(i).getText());
 	 }
 		
-		
-
+	
 		
 driver.close();	
 		
